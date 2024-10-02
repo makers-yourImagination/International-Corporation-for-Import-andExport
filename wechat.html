@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>We Chat</title>
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <meta name="description" content="">
+    <meta name="keywords" content="import export, premium design, business solutions">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images/we\ chat\ background.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
+            max-width: 400px; /* Reduced max-width for better mobile fit */
+            width: 90%;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .inner-box {
+            position: relative;
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px); 
+            background-color: rgba(255, 255, 255, 0.1); 
+        }
+        .avatar {
+            width: 80px; /* Smaller size for mobile */
+            height: 80px; /* Smaller size for mobile */
+            background: url('images/we\ chat\ logo2.png') center center / cover no-repeat;
+            margin: 0 auto 15px; /* Adjusted margin */
+        }
+        .qr-code {
+            width: 90%; /* Make the QR code more responsive */
+            max-width: 250px; /* Limit max width for larger screens */
+            border: 5px solid #ffffff; /* White border for a premium look */
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            margin: 15px 0; /* Space above and below */
+        }
+        .title {
+            font-size: 20px; /* Adjusted size for better mobile fit */
+            font-weight: 700;
+            color: #333333;
+            margin: 10px 0;
+        }
+        .title-description {
+            font-size: 14px; /* Adjusted size for better mobile fit */
+            font-weight: 500;
+            color: #666666;
+            margin-bottom: 15px; /* Adjusted margin */
+        }
+        .back-btn {
+            display: inline-block;
+            padding: 10px 20px; /* Adjusted padding */
+            border: 2px solid transparent;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #a3adce, #0db9d8);
+            color: #fff;
+            font-size: 14px; /* Adjusted size for better mobile fit */
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background 0.3s, color 0.3s;
+            margin-top: 15px; /* Adjusted margin */
+        }
+        .back-btn:hover {
+            background: linear-gradient(135deg, #5fc9e1, #27e14c);
+            color: #fff;
+        }
+        @media (max-width: 768px) {
+            .title {
+                font-size: 18px; /* Responsive title size */
+            }
+            .title-description {
+                font-size: 12px; /* Responsive description size */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-box">
+            <div class="avatar"></div>
+            <h1 class="title">We Chat</h1>
+            <p class="title-description">Scan the QR code to connect with us on WeChat!</p>
+            <img src="images/We chat Qrcode.JPG" alt="WeChat QR Code" class="qr-code">
+            <a href="index.html" class="back-btn">
+                Go back to Home
+            </a>
+        </div>
+    </div>
+</body>
+</html>
